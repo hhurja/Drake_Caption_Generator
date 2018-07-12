@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B01129151D94CDB400CD063F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01129141D94CDB400CD063F /* AppDelegate.swift */; };
+		B01129171D94CDB400CD063F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01129161D94CDB400CD063F /* ViewController.swift */; };
+		B011291A1D94CDB400CD063F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01129181D94CDB400CD063F /* Main.storyboard */; };
+		B011291D1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B011291B1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodeld */; };
+		B011291F1D94CDB400CD063F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B011291E1D94CDB400CD063F /* Assets.xcassets */; };
+		B01129221D94CDB400CD063F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01129201D94CDB400CD063F /* LaunchScreen.storyboard */; };
+		B011292D1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011292C1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift */; };
+		B01129381D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01129371D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B01129291D94CDB400CD063F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01129091D94CDB400CD063F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01129101D94CDB400CD063F;
+			remoteInfo = "New Super Awesome Camera App";
+		};
+		B01129341D94CDB400CD063F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01129091D94CDB400CD063F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01129101D94CDB400CD063F;
+			remoteInfo = "New Super Awesome Camera App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B01129111D94CDB400CD063F /* New Super Awesome Camera App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Super Awesome Camera App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01129141D94CDB400CD063F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B01129161D94CDB400CD063F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B01129191D94CDB400CD063F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B011291C1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = New_Super_Awesome_Camera_App.xcdatamodel; sourceTree = "<group>"; };
+		B011291E1D94CDB400CD063F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B01129211D94CDB400CD063F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B01129231D94CDB400CD063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01129281D94CDB400CD063F /* New Super Awesome Camera AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Super Awesome Camera AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B011292C1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Super_Awesome_Camera_AppTests.swift; sourceTree = "<group>"; };
+		B011292E1D94CDB400CD063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01129331D94CDB400CD063F /* New Super Awesome Camera AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Super Awesome Camera AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01129371D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Super_Awesome_Camera_AppUITests.swift; sourceTree = "<group>"; };
+		B01129391D94CDB400CD063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B011290E1D94CDB400CD063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01129251D94CDB400CD063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01129301D94CDB400CD063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B01129081D94CDB400CD063F = {
+			isa = PBXGroup;
+			children = (
+				B01129131D94CDB400CD063F /* New Super Awesome Camera App */,
+				B011292B1D94CDB400CD063F /* New Super Awesome Camera AppTests */,
+				B01129361D94CDB400CD063F /* New Super Awesome Camera AppUITests */,
+				B01129121D94CDB400CD063F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B01129121D94CDB400CD063F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01129111D94CDB400CD063F /* New Super Awesome Camera App.app */,
+				B01129281D94CDB400CD063F /* New Super Awesome Camera AppTests.xctest */,
+				B01129331D94CDB400CD063F /* New Super Awesome Camera AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01129131D94CDB400CD063F /* New Super Awesome Camera App */ = {
+			isa = PBXGroup;
+			children = (
+				B01129141D94CDB400CD063F /* AppDelegate.swift */,
+				B01129161D94CDB400CD063F /* ViewController.swift */,
+				B01129181D94CDB400CD063F /* Main.storyboard */,
+				B011291E1D94CDB400CD063F /* Assets.xcassets */,
+				B01129201D94CDB400CD063F /* LaunchScreen.storyboard */,
+				B01129231D94CDB400CD063F /* Info.plist */,
+				B011291B1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodeld */,
+			);
+			path = "New Super Awesome Camera App";
+			sourceTree = "<group>";
+		};
+		B011292B1D94CDB400CD063F /* New Super Awesome Camera AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B011292C1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift */,
+				B011292E1D94CDB400CD063F /* Info.plist */,
+			);
+			path = "New Super Awesome Camera AppTests";
+			sourceTree = "<group>";
+		};
+		B01129361D94CDB400CD063F /* New Super Awesome Camera AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B01129371D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift */,
+				B01129391D94CDB400CD063F /* Info.plist */,
+			);
+			path = "New Super Awesome Camera AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01129101D94CDB400CD063F /* New Super Awesome Camera App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B011293C1D94CDB400CD063F /* Build configuration list for PBXNativeTarget "New Super Awesome Camera App" */;
+			buildPhases = (
+				B011290D1D94CDB400CD063F /* Sources */,
+				B011290E1D94CDB400CD063F /* Frameworks */,
+				B011290F1D94CDB400CD063F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New Super Awesome Camera App";
+			productName = "New Super Awesome Camera App";
+			productReference = B01129111D94CDB400CD063F /* New Super Awesome Camera App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B01129271D94CDB400CD063F /* New Super Awesome Camera AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B011293F1D94CDB400CD063F /* Build configuration list for PBXNativeTarget "New Super Awesome Camera AppTests" */;
+			buildPhases = (
+				B01129241D94CDB400CD063F /* Sources */,
+				B01129251D94CDB400CD063F /* Frameworks */,
+				B01129261D94CDB400CD063F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B011292A1D94CDB400CD063F /* PBXTargetDependency */,
+			);
+			name = "New Super Awesome Camera AppTests";
+			productName = "New Super Awesome Camera AppTests";
+			productReference = B01129281D94CDB400CD063F /* New Super Awesome Camera AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B01129321D94CDB400CD063F /* New Super Awesome Camera AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01129421D94CDB400CD063F /* Build configuration list for PBXNativeTarget "New Super Awesome Camera AppUITests" */;
+			buildPhases = (
+				B011292F1D94CDB400CD063F /* Sources */,
+				B01129301D94CDB400CD063F /* Frameworks */,
+				B01129311D94CDB400CD063F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01129351D94CDB400CD063F /* PBXTargetDependency */,
+			);
+			name = "New Super Awesome Camera AppUITests";
+			productName = "New Super Awesome Camera AppUITests";
+			productReference = B01129331D94CDB400CD063F /* New Super Awesome Camera AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01129091D94CDB400CD063F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sarcrates;
+				TargetAttributes = {
+					B01129101D94CDB400CD063F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TVTF7438SV;
+						ProvisioningStyle = Automatic;
+					};
+					B01129271D94CDB400CD063F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7478QW4H4K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B01129101D94CDB400CD063F;
+					};
+					B01129321D94CDB400CD063F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7478QW4H4K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B01129101D94CDB400CD063F;
+					};
+				};
+			};
+			buildConfigurationList = B011290C1D94CDB400CD063F /* Build configuration list for PBXProject "New Super Awesome Camera App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B01129081D94CDB400CD063F;
+			productRefGroup = B01129121D94CDB400CD063F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01129101D94CDB400CD063F /* New Super Awesome Camera App */,
+				B01129271D94CDB400CD063F /* New Super Awesome Camera AppTests */,
+				B01129321D94CDB400CD063F /* New Super Awesome Camera AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B011290F1D94CDB400CD063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01129221D94CDB400CD063F /* LaunchScreen.storyboard in Resources */,
+				B011291F1D94CDB400CD063F /* Assets.xcassets in Resources */,
+				B011291A1D94CDB400CD063F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01129261D94CDB400CD063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01129311D94CDB400CD063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B011290D1D94CDB400CD063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01129171D94CDB400CD063F /* ViewController.swift in Sources */,
+				B01129151D94CDB400CD063F /* AppDelegate.swift in Sources */,
+				B011291D1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01129241D94CDB400CD063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B011292D1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B011292F1D94CDB400CD063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01129381D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B011292A1D94CDB400CD063F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01129101D94CDB400CD063F /* New Super Awesome Camera App */;
+			targetProxy = B01129291D94CDB400CD063F /* PBXContainerItemProxy */;
+		};
+		B01129351D94CDB400CD063F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01129101D94CDB400CD063F /* New Super Awesome Camera App */;
+			targetProxy = B01129341D94CDB400CD063F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B01129181D94CDB400CD063F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01129191D94CDB400CD063F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B01129201D94CDB400CD063F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01129211D94CDB400CD063F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B011293A1D94CDB400CD063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B011293B1D94CDB400CD063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B011293D1D94CDB400CD063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVTF7438SV;
+				INFOPLIST_FILE = "New Super Awesome Camera App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mirrorDrakeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B011293E1D94CDB400CD063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVTF7438SV;
+				INFOPLIST_FILE = "New Super Awesome Camera App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mirrorDrakeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B01129401D94CDB400CD063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7478QW4H4K;
+				INFOPLIST_FILE = "New Super Awesome Camera AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarcrates.New-Super-Awesome-Camera-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New Super Awesome Camera App.app/New Super Awesome Camera App";
+			};
+			name = Debug;
+		};
+		B01129411D94CDB400CD063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7478QW4H4K;
+				INFOPLIST_FILE = "New Super Awesome Camera AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarcrates.New-Super-Awesome-Camera-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New Super Awesome Camera App.app/New Super Awesome Camera App";
+			};
+			name = Release;
+		};
+		B01129431D94CDB400CD063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7478QW4H4K;
+				INFOPLIST_FILE = "New Super Awesome Camera AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarcrates.New-Super-Awesome-Camera-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "New Super Awesome Camera App";
+			};
+			name = Debug;
+		};
+		B01129441D94CDB400CD063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7478QW4H4K;
+				INFOPLIST_FILE = "New Super Awesome Camera AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarcrates.New-Super-Awesome-Camera-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "New Super Awesome Camera App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B011290C1D94CDB400CD063F /* Build configuration list for PBXProject "New Super Awesome Camera App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B011293A1D94CDB400CD063F /* Debug */,
+				B011293B1D94CDB400CD063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B011293C1D94CDB400CD063F /* Build configuration list for PBXNativeTarget "New Super Awesome Camera App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B011293D1D94CDB400CD063F /* Debug */,
+				B011293E1D94CDB400CD063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B011293F1D94CDB400CD063F /* Build configuration list for PBXNativeTarget "New Super Awesome Camera AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01129401D94CDB400CD063F /* Debug */,
+				B01129411D94CDB400CD063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01129421D94CDB400CD063F /* Build configuration list for PBXNativeTarget "New Super Awesome Camera AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01129431D94CDB400CD063F /* Debug */,
+				B01129441D94CDB400CD063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B011291B1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B011291C1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodel */,
+			);
+			currentVersion = B011291C1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodel */;
+			path = New_Super_Awesome_Camera_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B01129091D94CDB400CD063F /* Project object */;
+}
