@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBAB488720F7C49300A2C573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB488620F7C49300A2C573 /* AppDelegate.swift */; };
+		EBAB488920F7C49300A2C573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB488820F7C49300A2C573 /* ViewController.swift */; };
+		EBAB488C20F7C49300A2C573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAB488A20F7C49300A2C573 /* Main.storyboard */; };
+		EBAB488E20F7C49400A2C573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAB488D20F7C49400A2C573 /* Assets.xcassets */; };
+		EBAB489120F7C49400A2C573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAB488F20F7C49400A2C573 /* LaunchScreen.storyboard */; };
+		EBAB489C20F7C49400A2C573 /* DrakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB489B20F7C49400A2C573 /* DrakeTests.swift */; };
+		EBAB48A720F7C49400A2C573 /* DrakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB48A620F7C49400A2C573 /* DrakeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBAB489820F7C49400A2C573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBAB487B20F7C49300A2C573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBAB488220F7C49300A2C573;
+			remoteInfo = Drake;
+		};
+		EBAB48A320F7C49400A2C573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBAB487B20F7C49300A2C573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBAB488220F7C49300A2C573;
+			remoteInfo = Drake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBAB488320F7C49300A2C573 /* Drake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAB488620F7C49300A2C573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBAB488820F7C49300A2C573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBAB488B20F7C49300A2C573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBAB488D20F7C49400A2C573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAB489020F7C49400A2C573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBAB489220F7C49400A2C573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAB489720F7C49400A2C573 /* DrakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAB489B20F7C49400A2C573 /* DrakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrakeTests.swift; sourceTree = "<group>"; };
+		EBAB489D20F7C49400A2C573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAB48A220F7C49400A2C573 /* DrakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAB48A620F7C49400A2C573 /* DrakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrakeUITests.swift; sourceTree = "<group>"; };
+		EBAB48A820F7C49400A2C573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAB488020F7C49300A2C573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB489420F7C49400A2C573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB489F20F7C49400A2C573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBAB487A20F7C49300A2C573 = {
+			isa = PBXGroup;
+			children = (
+				EBAB488520F7C49300A2C573 /* Drake */,
+				EBAB489A20F7C49400A2C573 /* DrakeTests */,
+				EBAB48A520F7C49400A2C573 /* DrakeUITests */,
+				EBAB488420F7C49300A2C573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAB488420F7C49300A2C573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAB488320F7C49300A2C573 /* Drake.app */,
+				EBAB489720F7C49400A2C573 /* DrakeTests.xctest */,
+				EBAB48A220F7C49400A2C573 /* DrakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAB488520F7C49300A2C573 /* Drake */ = {
+			isa = PBXGroup;
+			children = (
+				EBAB488620F7C49300A2C573 /* AppDelegate.swift */,
+				EBAB488820F7C49300A2C573 /* ViewController.swift */,
+				EBAB488A20F7C49300A2C573 /* Main.storyboard */,
+				EBAB488D20F7C49400A2C573 /* Assets.xcassets */,
+				EBAB488F20F7C49400A2C573 /* LaunchScreen.storyboard */,
+				EBAB489220F7C49400A2C573 /* Info.plist */,
+			);
+			path = Drake;
+			sourceTree = "<group>";
+		};
+		EBAB489A20F7C49400A2C573 /* DrakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBAB489B20F7C49400A2C573 /* DrakeTests.swift */,
+				EBAB489D20F7C49400A2C573 /* Info.plist */,
+			);
+			path = DrakeTests;
+			sourceTree = "<group>";
+		};
+		EBAB48A520F7C49400A2C573 /* DrakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBAB48A620F7C49400A2C573 /* DrakeUITests.swift */,
+				EBAB48A820F7C49400A2C573 /* Info.plist */,
+			);
+			path = DrakeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAB488220F7C49300A2C573 /* Drake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAB48AB20F7C49400A2C573 /* Build configuration list for PBXNativeTarget "Drake" */;
+			buildPhases = (
+				EBAB487F20F7C49300A2C573 /* Sources */,
+				EBAB488020F7C49300A2C573 /* Frameworks */,
+				EBAB488120F7C49300A2C573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drake;
+			productName = Drake;
+			productReference = EBAB488320F7C49300A2C573 /* Drake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBAB489620F7C49400A2C573 /* DrakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAB48AE20F7C49400A2C573 /* Build configuration list for PBXNativeTarget "DrakeTests" */;
+			buildPhases = (
+				EBAB489320F7C49400A2C573 /* Sources */,
+				EBAB489420F7C49400A2C573 /* Frameworks */,
+				EBAB489520F7C49400A2C573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBAB489920F7C49400A2C573 /* PBXTargetDependency */,
+			);
+			name = DrakeTests;
+			productName = DrakeTests;
+			productReference = EBAB489720F7C49400A2C573 /* DrakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBAB48A120F7C49400A2C573 /* DrakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAB48B120F7C49400A2C573 /* Build configuration list for PBXNativeTarget "DrakeUITests" */;
+			buildPhases = (
+				EBAB489E20F7C49400A2C573 /* Sources */,
+				EBAB489F20F7C49400A2C573 /* Frameworks */,
+				EBAB48A020F7C49400A2C573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBAB48A420F7C49400A2C573 /* PBXTargetDependency */,
+			);
+			name = DrakeUITests;
+			productName = DrakeUITests;
+			productReference = EBAB48A220F7C49400A2C573 /* DrakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAB487B20F7C49300A2C573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Boats and Potreros";
+				TargetAttributes = {
+					EBAB488220F7C49300A2C573 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EBAB489620F7C49400A2C573 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EBAB488220F7C49300A2C573;
+					};
+					EBAB48A120F7C49400A2C573 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EBAB488220F7C49300A2C573;
+					};
+				};
+			};
+			buildConfigurationList = EBAB487E20F7C49300A2C573 /* Build configuration list for PBXProject "Drake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAB487A20F7C49300A2C573;
+			productRefGroup = EBAB488420F7C49300A2C573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAB488220F7C49300A2C573 /* Drake */,
+				EBAB489620F7C49400A2C573 /* DrakeTests */,
+				EBAB48A120F7C49400A2C573 /* DrakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAB488120F7C49300A2C573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAB489120F7C49400A2C573 /* LaunchScreen.storyboard in Resources */,
+				EBAB488E20F7C49400A2C573 /* Assets.xcassets in Resources */,
+				EBAB488C20F7C49300A2C573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB489520F7C49400A2C573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB48A020F7C49400A2C573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAB487F20F7C49300A2C573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAB488920F7C49300A2C573 /* ViewController.swift in Sources */,
+				EBAB488720F7C49300A2C573 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB489320F7C49400A2C573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAB489C20F7C49400A2C573 /* DrakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB489E20F7C49400A2C573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAB48A720F7C49400A2C573 /* DrakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBAB489920F7C49400A2C573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBAB488220F7C49300A2C573 /* Drake */;
+			targetProxy = EBAB489820F7C49400A2C573 /* PBXContainerItemProxy */;
+		};
+		EBAB48A420F7C49400A2C573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBAB488220F7C49300A2C573 /* Drake */;
+			targetProxy = EBAB48A320F7C49400A2C573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBAB488A20F7C49300A2C573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAB488B20F7C49300A2C573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBAB488F20F7C49400A2C573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAB489020F7C49400A2C573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBAB48A920F7C49400A2C573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBAB48AA20F7C49400A2C573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAB48AC20F7C49400A2C573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVTF7438SV;
+				INFOPLIST_FILE = Drake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boats.and.potreros.Drake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBAB48AD20F7C49400A2C573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVTF7438SV;
+				INFOPLIST_FILE = Drake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boats.and.potreros.Drake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBAB48AF20F7C49400A2C573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVTF7438SV;
+				INFOPLIST_FILE = DrakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boats.and.potreros.DrakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drake.app/Drake";
+			};
+			name = Debug;
+		};
+		EBAB48B020F7C49400A2C573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVTF7438SV;
+				INFOPLIST_FILE = DrakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boats.and.potreros.DrakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drake.app/Drake";
+			};
+			name = Release;
+		};
+		EBAB48B220F7C49400A2C573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVTF7438SV;
+				INFOPLIST_FILE = DrakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boats.and.potreros.DrakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Drake;
+			};
+			name = Debug;
+		};
+		EBAB48B320F7C49400A2C573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVTF7438SV;
+				INFOPLIST_FILE = DrakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boats.and.potreros.DrakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Drake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAB487E20F7C49300A2C573 /* Build configuration list for PBXProject "Drake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAB48A920F7C49400A2C573 /* Debug */,
+				EBAB48AA20F7C49400A2C573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAB48AB20F7C49400A2C573 /* Build configuration list for PBXNativeTarget "Drake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAB48AC20F7C49400A2C573 /* Debug */,
+				EBAB48AD20F7C49400A2C573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAB48AE20F7C49400A2C573 /* Build configuration list for PBXNativeTarget "DrakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAB48AF20F7C49400A2C573 /* Debug */,
+				EBAB48B020F7C49400A2C573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAB48B120F7C49400A2C573 /* Build configuration list for PBXNativeTarget "DrakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAB48B220F7C49400A2C573 /* Debug */,
+				EBAB48B320F7C49400A2C573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAB487B20F7C49300A2C573 /* Project object */;
+}
