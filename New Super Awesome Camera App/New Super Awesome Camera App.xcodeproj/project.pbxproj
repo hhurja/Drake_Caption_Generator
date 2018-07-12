@@ -13,8 +13,7 @@
 		B011291D1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B011291B1D94CDB400CD063F /* New_Super_Awesome_Camera_App.xcdatamodeld */; };
 		B011291F1D94CDB400CD063F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B011291E1D94CDB400CD063F /* Assets.xcassets */; };
 		B01129221D94CDB400CD063F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01129201D94CDB400CD063F /* LaunchScreen.storyboard */; };
-		B011292D1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011292C1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift */; };
-		B01129381D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01129371D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift */; };
+		EBD6C67B20F7E1FF00AD9861 /* WithMyWoes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBD6C67820F7E1FF00AD9861 /* WithMyWoes.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +43,8 @@
 		B01129211D94CDB400CD063F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B01129231D94CDB400CD063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B01129281D94CDB400CD063F /* New Super Awesome Camera AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Super Awesome Camera AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B011292C1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Super_Awesome_Camera_AppTests.swift; sourceTree = "<group>"; };
-		B011292E1D94CDB400CD063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B01129331D94CDB400CD063F /* New Super Awesome Camera AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Super Awesome Camera AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B01129371D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Super_Awesome_Camera_AppUITests.swift; sourceTree = "<group>"; };
-		B01129391D94CDB400CD063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD6C67820F7E1FF00AD9861 /* WithMyWoes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WithMyWoes.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +75,8 @@
 		B01129081D94CDB400CD063F = {
 			isa = PBXGroup;
 			children = (
+				EBD6C67520F7E1E300AD9861 /* Assets */,
 				B01129131D94CDB400CD063F /* New Super Awesome Camera App */,
-				B011292B1D94CDB400CD063F /* New Super Awesome Camera AppTests */,
-				B01129361D94CDB400CD063F /* New Super Awesome Camera AppUITests */,
 				B01129121D94CDB400CD063F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,22 +105,12 @@
 			path = "New Super Awesome Camera App";
 			sourceTree = "<group>";
 		};
-		B011292B1D94CDB400CD063F /* New Super Awesome Camera AppTests */ = {
+		EBD6C67520F7E1E300AD9861 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B011292C1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift */,
-				B011292E1D94CDB400CD063F /* Info.plist */,
+				EBD6C67820F7E1FF00AD9861 /* WithMyWoes.ttf */,
 			);
-			path = "New Super Awesome Camera AppTests";
-			sourceTree = "<group>";
-		};
-		B01129361D94CDB400CD063F /* New Super Awesome Camera AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B01129371D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift */,
-				B01129391D94CDB400CD063F /* Info.plist */,
-			);
-			path = "New Super Awesome Camera AppUITests";
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B01129221D94CDB400CD063F /* LaunchScreen.storyboard in Resources */,
+				EBD6C67B20F7E1FF00AD9861 /* WithMyWoes.ttf in Resources */,
 				B011291F1D94CDB400CD063F /* Assets.xcassets in Resources */,
 				B011291A1D94CDB400CD063F /* Main.storyboard in Resources */,
 			);
@@ -275,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B011292D1D94CDB400CD063F /* New_Super_Awesome_Camera_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B01129381D94CDB400CD063F /* New_Super_Awesome_Camera_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
