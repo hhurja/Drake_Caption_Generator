@@ -1,12 +1,12 @@
 import os
 import base64
 import json
-from flask import Flask, request, redirect, url_for, Response
+from flask import Flask, request, redirect, url_for, Response, jsonify
 from werkzeug.utils import secure_filename
+
 from emotion import get_key_emotions
 from object_recognition import get_tags
 from caption_chooser import Lookup
-from flask import jsonify
 
 UPLOAD_FOLDER = './images'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
