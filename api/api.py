@@ -39,21 +39,5 @@ def get_caption():
     )
 
 
-@app.route('/test', methods=['POST'])
-def test():
-    print "Timmy hit me"
-    print
-    # print type(request.get_json()['string'])
-    print '-----'
-
-    image = request.get_json()['string']
-    # image = request.files['image']
-    image_64_decode = base64.b64decode(image)
-
-    # image_string = base64.b64decode(image.read())
-    image_result = open('test/temp.jpeg', 'wb') # create a writable image and write the decoding result 
-    image_result.write(image_64_decode)
-
-
 if __name__ == '__main__':
-	app.run(host='0.0.0.0',debug=True)
+	app.run(host='0.0.0.0')
