@@ -12,7 +12,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBOutlet weak var pickedImaged: UIImageView!
     
-
+    @IBOutlet var captionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         UIApplication.shared.statusBarStyle = .lightContent
@@ -33,7 +34,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             imagePicker.allowsEditing = false
             self.present(imagePicker, animated: true, completion: nil)
         }
-        
     }
     
     @IBAction func photolibraryaction(_ sender: UIButton) {
@@ -44,16 +44,56 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             imagePicker.allowsEditing = true
             self.present(imagePicker, animated: true, completion: nil)
         }
-        
-        
     }
     
     @IBAction func saveaction(_ sender: UIButton) {
+        //        let requestData: Data
+        //        do {
+        //            requestData = try JSONSerialization.data(withJSONObject: dictionary, options: JSONSerialization.WritingOptions())
+        //            request.httpBody = requestData
+        //        }
+        //        catch let error as NSError {
+        //        }
+        
         
         let imageData = UIImageJPEGRepresentation(pickedImaged.image!, 0.6)
         let compressedJPEGImage = UIImage(data: imageData!)
-        UIImageWriteToSavedPhotosAlbum(compressedJPEGImage!, nil, nil, nil)
-        saveNotice()
+        let data = imageData!.base64EncodedString(options: Data.Base64EncodingOptions.lineLength64Characters)
+
+        let url = URL(string: "http://17.236.37.73:5000")!
+        var request = URLRequest(url: url)
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("application/json", forHTTPHeaderField: "Accept-Language")
+        request.httpMethod = "POST"
+        //let postString: String = data
+        let dictionary: [String:Any] = ["string": data]
+        do {
+            let requestData:Data = try JSONSerialization.data(withJSONObject: dictionary, options: JSONSerialization.WritingOptions())
+            request.httpBody = requestData
+        }
+        catch let error as NSError {
+        }
+        let config = URLSessionConfiguration.default
+        let session = URLSession(configuration: config)
+        print("making call \(dictionary)")
+        captionLabel.text = "Loading..."
+        let task = session.dataTask(with: request) { (responseData, response, responseError) in
+            DispatchQueue.main.async {
+                var text: String = "I only love my bed and my momma I'm sorry"
+                do {
+                    if let object = try JSONSerialization.jsonObject(with: responseData!, options: []) as? [String: Any] {
+                        print("responseData: \(object)")
+                        text = object["caption"] as! String
+                    }
+                    self.captionLabel.text = text
+                }
+                catch {
+                }
+            }
+        }
+        task.resume()
+        
+        //let quotes: [String] = ["1", "2", "3", "4", "5", "6"]
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!){
@@ -61,13 +101,4 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.dismiss(animated: true, completion: nil);
     }
     
-    
-    func saveNotice(){
-        let alertController = UIAlertController(title: "Image Saved!", message: "Your picture was successfully saved.", preferredStyle: .alert)
-        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alertController.addAction(defaultAction)
-        present(alertController, animated: true, completion: nil)
-    }
-
 }
-

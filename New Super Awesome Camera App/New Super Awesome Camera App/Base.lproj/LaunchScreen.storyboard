@@ -25,7 +25,7 @@
                                 <rect key="frame" x="78" y="548" width="242" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="makeitdraketext-1" translatesAutoresizingMaskIntoConstraints="NO" id="IXb-nA-XVl">
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="makeitdraketext-1" translatesAutoresizingMaskIntoConstraints="NO" id="IXb-nA-XVl">
                                 <rect key="frame" x="78" y="262" width="207" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>

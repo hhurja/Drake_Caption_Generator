@@ -27,9 +27,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOU-rm-q4K">
-                                <rect key="frame" x="156" y="584" width="146" height="52"/>
+                                <rect key="frame" x="67" y="66" width="73" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WithMyWoes" family="With My Woes" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="WithMyWoes" family="With My Woes" pointSize="20"/>
                                 <state key="normal" title="Upload">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -38,9 +38,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIV-Wq-OxD">
-                                <rect key="frame" x="157" y="658" width="144" height="52"/>
+                                <rect key="frame" x="268" y="68" width="72" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WithMyWoes" family="With My Woes" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="WithMyWoes" family="With My Woes" pointSize="20"/>
                                 <state key="normal" title="Camera">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -49,36 +49,40 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3wX-I1-win">
-                                <rect key="frame" x="0.0" y="118" width="375" height="375"/>
+                                <rect key="frame" x="0.0" y="120" width="375" height="375"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="mLh-6s-VVB">
-                                <rect key="frame" x="74" y="658" width="52" height="52"/>
+                                <rect key="frame" x="233" y="66" width="23" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="upload" translatesAutoresizingMaskIntoConstraints="NO" id="nJD-pB-Ads">
-                                <rect key="frame" x="74" y="584" width="52" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="5Sd-Rl-Sjw">
-                                <rect key="frame" x="321" y="64" width="46" height="29"/>
+                                <rect key="frame" x="35" y="72" width="18" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56K-E7-iL5">
-                                <rect key="frame" x="230" y="60" width="99" height="41"/>
+                                <rect key="frame" x="109" y="721" width="157" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WithMyWoes" family="With My Woes" pointSize="28"/>
-                                <state key="normal" title="Share">
+                                <fontDescription key="fontDescription" name="WithMyWoes" family="With My Woes" pointSize="20"/>
+                                <state key="normal" title="Make it Drake">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="saveaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K5N-Ji-6Ei"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjq-NX-kzV">
+                                <rect key="frame" x="35" y="503" width="305" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="WithMyWoes" family="With My Woes" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="captionLabel" destination="Jjq-NX-kzV" id="vW7-uk-qbt"/>
                         <outlet property="pickedImaged" destination="3wX-I1-win" id="grw-uE-lJW"/>
                     </connections>
                 </viewController>
@@ -89,7 +93,6 @@
     </scenes>
     <resources>
         <image name="camera" width="512" height="392"/>
-        <image name="share" width="72" height="92"/>
         <image name="upload" width="426" height="434"/>
     </resources>
 </document>
