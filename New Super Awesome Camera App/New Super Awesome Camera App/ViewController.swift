@@ -47,20 +47,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func saveaction(_ sender: UIButton) {
-        //        let requestData: Data
-        //        do {
-        //            requestData = try JSONSerialization.data(withJSONObject: dictionary, options: JSONSerialization.WritingOptions())
-        //            request.httpBody = requestData
-        //        }
-        //        catch let error as NSError {
-        //        }
-        
-        
         let imageData = UIImageJPEGRepresentation(pickedImaged.image!, 0.6)
         let compressedJPEGImage = UIImage(data: imageData!)
         let data = imageData!.base64EncodedString(options: Data.Base64EncodingOptions.lineLength64Characters)
 
-        let url = URL(string: "http://17.236.37.73:5000")!
+        let url = URL(string: "http://167.99.174.19:5000")!
         var request = URLRequest(url: url)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.setValue("application/json", forHTTPHeaderField: "Accept-Language")
@@ -79,7 +70,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         captionLabel.text = "Loading..."
         let task = session.dataTask(with: request) { (responseData, response, responseError) in
             DispatchQueue.main.async {
-                var text: String = "I only love my bed and my momma I'm sorry"
+                var text: String = ""
                 do {
                     if let object = try JSONSerialization.jsonObject(with: responseData!, options: []) as? [String: Any] {
                         print("responseData: \(object)")
@@ -92,8 +83,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             }
         }
         task.resume()
-        
-        //let quotes: [String] = ["1", "2", "3", "4", "5", "6"]
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!){
