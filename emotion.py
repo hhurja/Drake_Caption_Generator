@@ -10,7 +10,7 @@ def get_key_emotions(filepath, quantity, threshold):
 	querystring = {"returnFaceId":"true","returnFaceLandmarks":"false","returnFaceAttributes":"age,emotion"}
 
 	# payload = "{\r\n    \"url\": \"https://raw.githubusercontent.com/Microsoft/Cognitive-Face-Windows/master/Data/detection1.jpg\"\r\n}"
-	image_path = 'images/'+filepath
+	image_path = filepath
 	payload = open(image_path, "rb").read()
 	headers = {
 	    'Content-Type': "application/octet-stream",
@@ -39,4 +39,8 @@ def find_keys_emotion(emotions, quantity, threshold):
   			emotions_over_threshold.append(emotion_tuple)
   			visited.add(emotion_tuple[0])
 
-  	return emotions_over_threshold
+  	if emotions_over_threshold:
+  		print emotions_over_threshold
+  		return emotions_over_threshold[0][0]
+  	else:
+  		return None

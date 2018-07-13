@@ -12,7 +12,7 @@ def get_tags(filepath, threshold):
 	analyze_url = vision_base_url + "analyze"
 
 	# Set image_path to the local path of an image that you want to analyze.
-	image_path = "images/"+filepath
+	image_path = filepath
 
 	# Read the image into a byte array
 	image_data = open(image_path, "rb").read()
@@ -27,4 +27,4 @@ def get_tags(filepath, threshold):
 	# relevant caption for the image is obtained from the 'description' property.
 	analysis = response.json()
 
-	return [tag['name'] for tag in analysis['tags'] if tag['confidence'] > threshold]
+	return [str(tag['name']) for tag in analysis['tags'] if tag['confidence'] > threshold]
