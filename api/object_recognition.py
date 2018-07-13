@@ -1,6 +1,5 @@
 import requests
 import json
-import matplotlib.pyplot as plt
 from pprint import pprint
 from io import BytesIO
 
